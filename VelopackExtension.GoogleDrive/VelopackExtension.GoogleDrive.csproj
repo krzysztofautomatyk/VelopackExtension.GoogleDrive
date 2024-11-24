@@ -9,12 +9,14 @@
 		<Authors>Krzysztof Woźniczak</Authors>
 		<!-- Specify the company if applicable, else leave empty -->
 		<Company></Company>
+		<License>MIT</License>
 		<Description>Library for integrating Velopack with Google Drive as an update source.</Description>
 		<PackageTags>Velopack;GoogleDrive;NuGet;UpdateSource</PackageTags>
 		<RepositoryUrl>https://github.com/krzysztofautomatyk/VelopackExtension.GoogleDrive</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/krzysztofautomatyk/VelopackExtension.GoogleDrive</PackageProjectUrl>
 		<LicenseUrl>https://github.com/krzysztofautomatyk/VelopackExtension.GoogleDrive/blob/master/LICENSE.txt</LicenseUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<Copyright>Copyright © Krzysztof Woźniczak 2024</Copyright>
 		<IncludeSymbols>true</IncludeSymbols>
 		<IncludeSource>true</IncludeSource>
@@ -25,6 +27,8 @@
 		<PackageReference Include="Google.Apis.Drive.v3" Version="1.68.0.3601" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
 		<PackageReference Include="Velopack" Version="0.0.942" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
